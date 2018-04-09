@@ -1,0 +1,43 @@
+<view class='container'>
+<view>
+  <view class='nav'>
+    <button class ='fanhui'  type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap='fanhui'>返回</button>
+    <text class='title'>当前助困</text>
+    <button class ='zengjia'  type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap='zengjia'>增加</button>
+  </view>
+
+
+  <view class="section">
+  <picker bindchange="bindPickerChange1" value="{{index1}}" range="{{array1}}">
+    <view class="picker">
+      {{array1[index1]}}
+    </view>
+  </picker>
+  </view>
+
+  <view class="section">
+  <picker bindchange="bindPickerChange2" value="{{index2}}" range="{{array2}}">
+    <view class="picker">
+      {{array2[index2]}}
+    </view>
+  </picker>
+  </view>
+
+  <view class="section">
+  <picker bindchange="bindPickerChange3" value="{{index3}}" range="{{array3}}">
+    <view class="picker">
+      {{array3[index3]}}
+    </view>
+  </picker>
+  </view>
+
+
+  <view class='lieBiao'>
+    <view class='firstPart'>zkc</view>
+    <view class='secondPart'>
+    <text style='color:grey'>学业困难 家庭困难 一般关注</text>
+    </view>
+    <view class='thirdPart'>2018-03-28</view>
+  </view>
+</view>
+</view>

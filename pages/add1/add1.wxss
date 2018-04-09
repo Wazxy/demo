@@ -1,0 +1,32 @@
+.container{
+  background-color: #fff;
+  height: 1200rpx;
+  /*display: flex;
+  top: 0;
+  justify-content: flex-start;*/
+}
+
+.fanhui{
+  left: 0;
+  height: 75%;
+  width: 22%;
+  font-size: 70%;
+  margin-top: 10rpx;
+}
+.xiayibu{
+  right: 0;
+  height: 75%;
+  width: 22%;
+  font-size: 70%;
+  margin-top: 10rpx;
+}
+.nav{
+  height: 100rpx;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: greenyellow;
+  display: flex;
+  flex-direction: row;
+}

@@ -1,0 +1,9 @@
+<view class='container'>
+<view>
+
+  <view class='nav'>  
+    <button class ='fanhui'  type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap='fanhui'>返回</button>
+  </view>
+
+</view>
+</view>

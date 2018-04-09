@@ -1,0 +1,22 @@
+<view>
+  <view class='nav'>
+    
+  </view>
+  <view>
+    <view class='innerBlock'>
+      <image src="/image/button_ima1.png" class="image"/>
+      <text>当前助困</text>
+      <button class='Btn' type='primary' bindtap="one">1</button>
+    </view>
+    <view class='innerBlock'>
+      <image src="/image/button_2.png" class="image"/>
+      <text>新增助困</text>
+      <button class='Btn' type='primary' bindtap="two">2</button>
+    </view>
+    <view class='innerBlock'>
+      <image src="/image/button_3.png" class="image"/> 
+      <text>历史记录</text>
+      <button class='Btn' type='primary' bindtap="san">3</button>
+    </view>
+  </view>
+</view>

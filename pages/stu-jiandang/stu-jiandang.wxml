@@ -1,0 +1,12 @@
+<view class='container'>
+<view>
+
+  <view class='nav'>  
+    <button class ='fanhui'  type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap='fanhui'>返回</button>
+    <text class='title'>学生建档信息</text>
+    <button class ='xiugai'  type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap='xiugai'>修改</button>
+  </view>
+
+
+</view>
+</view>

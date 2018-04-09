@@ -1,0 +1,21 @@
+<view>
+<view class='nav'>
+  <view class="section">
+  <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+    <view class="picker">
+      {{array[index]}}
+    </view>
+  </picker>
+  </view>
+</view>
+
+<view class='title'>
+    <text style='color:grey'>zkc</text>
+</view>
+<view class='title'>
+    <text style='color:grey'>2016220302024</text>
+</view>
+
+
+
+</view>

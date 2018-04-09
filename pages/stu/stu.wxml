@@ -1,0 +1,21 @@
+<view class='container'>
+<view>
+  <view class='nav'>  
+    <button class ='now'  type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap='now'>当前助困</button>
+    <text class='title'>帮扶学生信息</text>
+    <button class ='xiugai'  type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap='xiugai'>修改</button>
+  </view>
+
+  <button class='btn' bindtap='jiating'>
+    <text>家庭信息</text>
+  </button>
+  <button class='btn' bindtap='jiandang'>
+    <text>建档信息</text>
+  </button>
+  <button class='btn' bindtap='chudang'>
+    <text>除档</text>
+  </button>
+
+
+</view>
+</view>
